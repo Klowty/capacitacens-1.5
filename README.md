@@ -1,10 +1,2 @@
 # capacitacens-1.5
-dependências necessárias
-<ul>
-<li>express</li>
-<li>nodemon -D</li>
-<li>sequelize</li>
-<li>sequelize-cli -D</li>
-<li>mysql2</li>
-<li>yup</li>
-</ul>
+<img src="https://miro.medium.com/max/2800/1*0imseVNYIc8Bade4tZPb5w.png">
