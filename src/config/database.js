@@ -1,11 +1,12 @@
+const dotenv = require('dotenv/config');
 module.exports = {
-    dialect: 'mysql',
-    host: 'localhost',
-    username: 'root',
-    password: 'qwe123',
-    database: 'desafio',
-    define:{
+    dialect: process.env.DB_DIALECT,
+    host: process.env.DB_HOST,
+    username: process.env.DB_USERNAME,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME,
+    define: {
         timestamps: true, //created at e updated at
-        underscored: true //snake_case
+        underscored: true, //snake_case
     },
 };
